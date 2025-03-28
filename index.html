@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border: 1px solid red;
+        }
+
+        main {
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #d1 {
+            height: 40px;
+            background-color: antiquewhite;
+        }
+
+        #d2 {
+            height: 40px;
+            background-color: aquamarine;
+            align-items: flex-end;
+            justify-self: flex-end;
+            justify-items: first baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="d1">
+            1
+        </div>
+        <div id="d2">
+            2
+        </div>
+    </main>
+</body>
+
+</html>
